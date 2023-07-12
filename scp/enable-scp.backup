@@ -1,0 +1,6 @@
+resource "aws_organizations_organization" "enable_scp" {
+
+  enabled_policy_types = [
+    "SERVICE_CONTROL_POLICY"
+  ]
+}
